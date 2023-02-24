@@ -1,0 +1,80 @@
+
+/* color: hsl(185, 75%, 39%)
+hsl(229, 23%, 23%)
+hsl(227, 10%, 46%) */
+body{
+    background-color: hsl(185, 75%, 39%);
+    font-family: 'Kumbh Sans', sans-serif;
+    font-size: 18px;
+    overflow: hidden;
+
+}
+
+.contador{
+    font-size: 18px;
+    color:hsl(0, 0%, 59%);
+    text-align: center;
+    margin-top: 50px;
+    display: inline-block;
+    margin-left: 45px;
+
+    /* font-weight: bold;  */
+   
+}
+.tarjeta{
+    border-radius: 15px;
+    position: relative;
+    top: 25vh;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+    background-color: white;
+    width: 375px;
+    height: 400px;
+    box-shadow: 0px 0px 200px 5px rgba(0 ,0 , 0, 0.4) ;
+}
+.fondo{
+    width: 100%;
+}
+span{
+    color:black;
+    font-weight: 700;
+}
+.nombre{
+    color:hsl(0, 0%, 59%);
+    text-align: center;
+    margin-top: -50px;    
+    }
+.avatar{
+    border-radius: 50%;
+    display: block;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    top: -65px;
+    border: 7px solid white;    
+}
+.top-circle{
+    display: block;
+    position: absolute;
+    top: -450px;
+    left: -400px;
+}
+.bottom-circle{
+    display: block;
+    position: absolute;
+    bottom: -590px;
+    right: -350px;
+}
+.attribution{
+
+}
+footer{
+    position: absolute;
+    bottom: 10px;
+    width: 100%;
+    text-align: center;
+    background-color: rgba(106, 111, 129, 0.4)
+}
+
+
